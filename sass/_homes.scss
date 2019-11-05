@@ -42,13 +42,11 @@
         background-color: $color-secondary;
         color: #fff;
         font-weight: 400;
-
-        
     }
 
     &__name:hover {
         opacity: .8;
-        transition: .6s
+        transition: .6s;
         
     }
     &__location,
