@@ -8,6 +8,9 @@
     justify-content: center;
     align-items: center;
 
+    @media only screen and(max-width: $bp-medium) {
+        grid-column: 1/-1;
+    }
     &__heading {
         padding-right: 6.5rem;
         padding-bottom: 2rem;
@@ -17,6 +20,15 @@
         grid-template-columns: min-content max-content;
         grid-gap: 2rem 5vh;
         align-items: center;
+
+        @media only screen and(max-width: $bp-medium) {
+            grid-template-columns: repeat(3,min-content max-content);
+        }
+        @media only screen and(max-width: $bp-medium) {
+           grid-template-columns: min-content max-content;
+
+        }
+
     }
     &__img {
         width: 7rem;
